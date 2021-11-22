@@ -1,7 +1,7 @@
 # Reconstrution-using-Self-Oraganizing-Feature-Map
 This project aims to encode a given image into code book vectors using Self-Organizing-Feature-Map and study the reconstruction by varying the number of weights of SOFM
 
-Description:
+DESCRIPTION:
 The first task tells us to partition the image into non-overlapping blocks of sizes
 4x4 and train various SOFM networks to establish codebook vectors. Thus, the
 image is rearranged in the sense that the 16 (4x4) pixels in the top left corner
