@@ -23,3 +23,14 @@ The receiver then reconstructs the image by first pulling out the columns corre-
 sponding to the indices from the code book and then rearranging those columns
 in the previous 4x4 blocks of the original image by ”unflattening” them. Finally,
 both the original and the new images are matched to see the distortion visually.
+
+CONCLUSION:
+Thus, it can concluded that SOFM structure is an efficient encoding process for
+real VQ implementation reducing the number of bits transmitted per codevector
+by a magnitude of 32 to 16 with minimal distortion. While these are some of the
+advantages, the disadvantages of this method could be the amount of resource
+consumption for generating code-books. (New code-books have to generated for
+new images with different information). Another point is that since images are
+compressed vital information could be lost in the process and thus this method
+would have to be carefully designed for applications like compressing medical
+images/x-rays etc.
